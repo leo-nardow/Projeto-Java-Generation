@@ -65,7 +65,8 @@ public class Caixa extends Mercado{
     }
 
     public void caixaAberto (){
-        if (this.abrirCaixa == true)
+        // a funçao .equals serve para comparar strings
+        if (abrir.equals("Sim") || abrir.equals("s") || abrirCaixa.equal('sim'))
         {
             System.out.println("Caixa Aberto, podemos trabalhar!");
         }
@@ -76,9 +77,11 @@ public class Caixa extends Mercado{
     }
 
 
-    public void fecharCaixar()
+    public void fecharCaixa()
     {
-        if(this.abrirCaixa == false){
+        if (abrirCaixa.equals("Não") || abrirCaixa.equals("n") || abrirCaixa.equal('nao')) || abrirCaixa.equals('não'){
+
+        }{
             System.out.println("Caixa Fechado");
         }
     }
