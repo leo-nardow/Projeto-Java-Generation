@@ -6,9 +6,10 @@ public class Funcionario {
 	private int id;
 	private int compras;
 	
-	public Funcionario(String[] nome, String[] cpf) {
+  // CONSTRUTOR 
+	public Funcionario(String[] nome, String[] cpf, int compras) {
 
-		this.compras = compras;
+		this.compras = compras; // Quantidades de vendas realizadas pelo funcionario
 	}
 	
   // GETTERS AND SETTERS
@@ -50,9 +51,9 @@ public class Funcionario {
 	}
 	
   // MÉTODOS
+	//Metodo para checar se o id inserido é valido ou não
 	public boolean isIdValido(int id) {
-		
-		if (id < 0 || id > cpf.length) {
+		if (id < 0 || id >= cpf.length) {
 			return false;		
 		} else {
 			return true;
@@ -60,8 +61,9 @@ public class Funcionario {
 
 	}
 	
+	//modulo para a contagem da comissão [Não finalizado, Douglas já fez no arquivo ProjetoLoja.java, então só precisa pegar de lá e implementar aqui]
 	public void comissao() {
-		this.compras += 1; 
+		setCompras(getCompras()+1); 
 	}
 
 }

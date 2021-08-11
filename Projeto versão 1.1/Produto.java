@@ -1,6 +1,11 @@
 package ProjetoJavaGeneration;
 
-
+/*Classe responsavel por:
+ * - Armazenar o estoque
+ * - Armazenar o preço
+ * - Exibir estoque
+ * - Exibir preço
+ * */ 
 public class Produto {
 	public Produto (String[] nomeProduto, double[] valorDoProduto) {
 		
@@ -10,6 +15,7 @@ public class Produto {
 			"Cafezinho", "Chocolate Quente"};
 	double[] valorDoProduto = {0.45, 1.00, 1.50, 1.00, 1.25, 5.00, 1.00, 1.50};
 	
+  // GETTERS AND SETTERS
 	public String getNomeProduto(int id) {
 		return nomeProduto[id];
 	}
@@ -26,6 +32,9 @@ public class Produto {
 		this.valorDoProduto = valorDoProduto;
 	}
 	
+	
+  // MÉTODOS
+	// Metodo para exibir os produtos no estoque
 	public void exibirProdutos(){
 		System.out.println("ID\t NOME DO PRODUTO \t VALOR");
 		
