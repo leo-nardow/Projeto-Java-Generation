@@ -79,9 +79,8 @@ public class Caixa extends Mercado{
 
     public void fecharCaixa()
     {
-        if (abrirCaixa.equals("Não") || abrirCaixa.equals("n") || abrirCaixa.equal('nao')) || abrirCaixa.equals('não'){
-
-        }{
+        if (abrirCaixa.equals("Não") || abrirCaixa.equals("n") || abrirCaixa.equal('nao')) || abrirCaixa.equals('não')
+        {
             System.out.println("Caixa Fechado");
         }
     }
