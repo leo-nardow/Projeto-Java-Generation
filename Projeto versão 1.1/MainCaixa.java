@@ -13,14 +13,14 @@ public class MainCaixa {
 		Funcionario func = new Funcionario(null, null, 0);
 		int op=0; //Operador do menu
 		
-		System.out.println("Porfavor, infome o seu id:");
+		System.out.println("Por favor, infome o seu id:");
 		func.setId(ler.nextInt());
 		
-		//Checar o id do Funcionario que ir· realizar a venda
+		//Checar o id do Funcionario que ir√° realizar a venda
 		if (!func.isIdValido(func.getId())) {
 			while (!func.isIdValido(func.getId())) {
-				System.out.println("Id Invalido!");
-				System.out.println("Porfavor, infome o seu id corretamente:");
+				System.out.println("Id Inv√°lido!");
+				System.out.println("Por favor, infome o seu id corretamente:");
 				func.setId(ler.nextInt());
 			}
 		}
@@ -29,7 +29,7 @@ public class MainCaixa {
 		
 		//Menu
 		while(op != 99) {
-			System.out.println("Digite uma das opÁıes a seguir:");
+			System.out.println("Digite uma das op√ß√µes a seguir:");
 			System.out.println("1 - Iniciar uma nova venda:");
 			System.out.println("2 - Exibir lista de produtos:");
 			System.out.println("99 - Fechar o programa:");
@@ -38,7 +38,7 @@ public class MainCaixa {
 			switch (op) {
 				case 1:
 					venda.setAbrirCaixa(true);
-					if (venda.iniciarVenda() == 1) {// Se ouve compra ent„o o funcionario ir· ganhar uma comiss„o
+					if (venda.iniciarVenda() == 1) {// Se houve compra ent√£oo o funcionario ir√° ganhar uma comiss√£o
 						func.comissao();
 					}
 				break;
@@ -49,11 +49,11 @@ public class MainCaixa {
 					venda.setAbrirCaixa(false);
 				break;
 				default:
-					System.out.println("Comando Invalido!");
+					System.out.println("Comando Inv√°lido!");
 				break;
 			}
 			System.out.println();
 		}
-		System.out.println("A quantidade de vendas feitas pelo funcionario "+func.getNome(func.getId())+" foram de: "+func.getCompras());
+		System.out.println("A quantidade de vendas feitas pelo funcion√°rio "+func.getNome(func.getId())+" foram de: "+func.getCompras());
 	}
 }
