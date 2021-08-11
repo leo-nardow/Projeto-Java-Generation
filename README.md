@@ -16,8 +16,8 @@ Projeto desenvolvido para aplicar habilidades obtidas no módulo 1 do bootcamp F
 
 - Diego Silva - <a href="https://www.linkedin.com/in/diego-silva-2479711a7/">LinkedIn<a/> <a href="https://github.com/diegobsilva10">GitHub<a/>  <a href="http://teste.com">@<a/>  
 - Douglas Lopes - <a href="https://www.linkedin.com/in/douglas-souza-94675616a/">LinkedIn<a/> <a href="https://github.com/snaiter0">GitHub<a/>  <a href="#">@<a/> 
-- Isaías Rodrigues -<a href="https://www.linkedin.com/in/isaiasz/">LinkedIn<a/> <a href="https://github.com/isaiaszanoni">GitHub<a/>  <a href="#">@<a/> 
-- Julio César - <a href="https://www.linkedin.com/in/isaiasz/">LinkedIn<a/> <a href="https://github.com/isaiaszanoni">GitHub<a/>  <a href="#">@<a/> 
+- Isaías Rodrigues -<a href="https://www.linkedin.com/in/isaiasz/">LinkedIn<a/> <a href="https://github.com/isaiaszanoni">GitHub<a/>  <a href="#">@isaiaszanoni<a/> 
+- Julio César Bonffim - <a href="">LinkedIn<a/> <a href="https://github.com/JulioBonffim">GitHub<a/>  <a href="#">@<a/> 
 - Léo Almeida  -<a href="https://www.linkedin.com/in/leo-nardow/">LinkedIn<a/> <a href="https://github.com/leo-nardow">GitHub<a/>  <a href="#">@<a/> 
 - Maria Paula - <a href="https://www.linkedin.com/in/mariapaula-bern/">LinkedIn<a/> <a href="https://github.com/MariaPaulaBernardes">GitHub<a/>  <a href="#">@<a/> 
 
