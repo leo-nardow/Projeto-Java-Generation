@@ -19,5 +19,4 @@ Projeto desenvolvido para aplicar habilidades obtidas no módulo 1 do bootcamp F
 - Isaías Rodrigues -<a href="https://www.linkedin.com/in/isaiasz/">LinkedIn<a/> <a href="https://github.com/isaiaszanoni">GitHub<a/>  <a href="#">@isaiaszanoni<a/> 
 - Julio César Bonffim - <a href="">LinkedIn<a/> <a href="https://github.com/JulioBonffim">GitHub<a/>  <a href="#">@<a/> 
 - Léo Almeida  -<a href="https://www.linkedin.com/in/leo-nardow/">LinkedIn<a/> <a href="https://github.com/leo-nardow">GitHub<a/>  <a href="#">@<a/> 
-- Maria Paula - <a href="https://www.linkedin.com/in/mariapaula-bern/">LinkedIn<a/> <a href="https://github.com/MariaPaulaBernardes">GitHub<a/>  <a href="#">@<a/> 
 
